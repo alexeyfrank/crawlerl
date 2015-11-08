@@ -1,0 +1,19 @@
+{application, 'crawler',
+ [{description, "Simple Site crawler"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {'crawler_app', []}},
+  {applications,
+   [kernel,
+    stdlib,
+    ssl,
+    ibrowse,
+    recon
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {contributors, []},
+  {licenses, []},
+  {links, []}
+ ]}.

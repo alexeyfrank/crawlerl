@@ -1,0 +1,11 @@
+-name crawler@0.0.0.0
+
+-setcookie crawler
+
++pc unicode
+
++K true
++A 30
+
+-env ERL_MAX_PORTS 4096
+-smp enable
